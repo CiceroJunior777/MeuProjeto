@@ -1,16 +1,10 @@
-import React from 'react';
-import Login from './telas/login/login';
-import Img from './componentes/img';
-import ButtonGroup from './componentes/ButtonGroup';
+import React from "react";
+import Login from "./telas/login/login";
 
 function App() {
   return (
     <div>
-      <ButtonGroup>
-        <Img>logo do orgamico</Img>
-        <Login />
-      </ButtonGroup>
-
+      <Login />
     </div>
   );
 }

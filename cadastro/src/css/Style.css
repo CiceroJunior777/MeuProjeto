@@ -1,0 +1,9 @@
+div{
+    display: inline-block;
+}
+
+img {
+    float:left;
+    width: 760px;
+    height: 625px;
+  }
