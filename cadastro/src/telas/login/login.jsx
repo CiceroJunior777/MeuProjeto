@@ -11,7 +11,7 @@ export default function Login() {
         <div>
             <img src={Img} alt="esta é a logo" />
             <div>
-                <Textos texto1>Insira seus dados para acessar a plataforma</Textos>
+                <Textos texto1>Insira seus dados para acessar a plataforma!</Textos>
                 <Textos T_email>Email</Textos>
                 <Input I_email placeholder="Digite seu email"></Input>
                 <Textos T_senha>Senha</Textos>
