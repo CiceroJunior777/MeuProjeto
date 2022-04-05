@@ -6,21 +6,43 @@ import Img from "./img/ImgLogin.jpg";
 import "../../css/Style.css";
 
 export default function Login() {
+
+    function teste(){
+        alert("aceito");
+    }
+
     return (
 
         <div>
             <img src={Img} alt="esta é a logo" />
             <div>
+                {/*Titulo*/}
                 <Textos texto1>Insira seus dados para acessar a plataforma!</Textos>
+                {/*Titulo*/}
+
+                {/*Input de email*/}
                 <Textos T_email>Email</Textos>
-                <Input I_email placeholder="Digite seu email"></Input>
+                <Input type="email" I_email placeholder="Digite seu email"></Input>
+                {/*Input de email*/}
+
+                {/*Input de senha*/}
                 <Textos T_senha>Senha</Textos>
-                <Input I_senha placeholder="Digite sua senha"></Input>
-                <Button B_login>Login</Button>
+                <Input type="password" id="Email_User" I_senha placeholder="Digite sua senha"></Input>
+                {/*Input de senha*/}
+
+                {/*Botões*/}
+                <Button B_login onClick={teste}>Login</Button>
                 <Button B_novocad>Login Usando o Google</Button>
+                {/*Botões*/}
+
+                {/*Link para recovery de senha*/}
                 <Textos R_senha>Esqueci minha senha</Textos>
+                {/*Link para recovery de senha*/}
+
+                {/*Criar novo registro*/}
                 <Textos texto2>Não tem uma conta?</Textos>
                 <Textos T_registro>Registre-se</Textos>
+                {/*Criar novo registro*/}
             </div>
         </div>
     );
