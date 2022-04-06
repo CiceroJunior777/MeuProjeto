@@ -7,10 +7,7 @@ import "../../css/Style.css";
 
 export default function Login() {
 
-    function teste(){
-        alert("aceito");
-    }
-
+    //inicio da execução da tela de login
     return (
 
         <div>
@@ -31,7 +28,7 @@ export default function Login() {
                 {/*Input de senha*/}
 
                 {/*Botões*/}
-                <Button B_login onClick={teste}>Login</Button>
+                <Button B_login>Login</Button>
                 <Button B_novocad>Login Usando o Google</Button>
                 {/*Botões*/}
 
