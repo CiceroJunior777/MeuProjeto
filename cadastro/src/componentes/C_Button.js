@@ -19,7 +19,7 @@ margin-left: 7.1em;
 margin-top: 2em;
 `}
 
-${props => props.B_novocad && css`
+${props => props.B_login_google && css`
 background: white;
 color: #979797;
 border: 2px solid #3A3A3A69;
